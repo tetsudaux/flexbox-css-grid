@@ -7,3 +7,59 @@ html {
     font-size: 62.5%;
     font-family: sans-serif;
 }
+
+.card {
+    width: 400px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.card-top {
+    display: flex;
+    padding: 10px 0;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.card-pic {
+    margin: 0 10px;
+}
+
+.card-pic img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.card-title {
+
+}
+.card-img {
+
+}
+.card-img img {
+    width: 100%;
+}
+.card-text {
+    margin: 15px;
+}
+.card-footer {
+    display: flex;
+    padding: 10px 0;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px 20px 20px;
+}
+.card-cta button {
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    padding: 7px;
+    border-radius: 5px;
+    font-weight: 700;
+}
