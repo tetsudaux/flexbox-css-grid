@@ -1,0 +1,22 @@
+body {
+    font-family: system-ui;
+}
+.parent {
+    display: grid;
+    place-items: center;
+    width: 500px;
+    height: 500px;
+    resize: both;
+    overflow: auto;
+}
+.child {
+    padding: 0.5rem;
+    border-radius: 5px;
+    text-align: center;
+}
+.blue {
+    background-color: aliceblue;
+}
+.coral {
+    background-color: coral;
+}
